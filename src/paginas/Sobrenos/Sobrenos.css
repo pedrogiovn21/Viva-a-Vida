@@ -1,0 +1,87 @@
+.containerSobrenos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.btnVoltar {
+    padding: 10px 1rem 0;
+}
+
+.headerSobrenos {
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    width: 100%;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+}
+
+.sobrenosImg {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 85vh;
+}
+
+.containerSobrenosTexto {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    position: relative;
+    margin-left: 10rem;
+}
+
+.containerSobrenosTitulo {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.containerSobrenosTitulo img {
+    width: 200px;
+    height: 200px;
+    padding-right: 30px;
+}
+
+.containerSobrenosTitulo h1 {
+    font-size: 92px;
+    font-family: var(--font-logo);
+    background-color: transparent;
+    line-height: 1.2;
+}
+
+.containerSobrenosTexto p {
+    margin-left: 20px;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--rosa);
+    font-size: 20px;
+    z-index: 1;
+    width: 30vw;
+}
+
+.sobreNosTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 10px 11vw;
+    margin: 0 auto;
+    font-size: 62px;
+    line-height: 1.6;
+    color: var(--branco);
+}
+
+.sobreNosTexto h2 {
+    align-self: center;
+    font-size: 120px;
+    margin-bottom: 1rem;
+    color: var(--rosa);
+}

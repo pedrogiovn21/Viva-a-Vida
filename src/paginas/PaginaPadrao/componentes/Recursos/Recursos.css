@@ -1,0 +1,48 @@
+.containerRecursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    gap: 5vh;
+}
+
+.containerRecursos h1{
+    color: var(--rosa);
+    justify-content: center;
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.containerRecursos ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.itemLista{
+    align-items: center;
+    text-align: center;
+    width: 24vw;
+    padding: 10vh 2vw;
+}
+
+.containerListaItem{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerListaItem img{
+    padding-bottom: 25px;
+}
+
+.containerListaItem p{
+    font-size: 20px;
+    max-width: 15vw;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 10px;
+}

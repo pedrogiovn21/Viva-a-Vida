@@ -1,0 +1,62 @@
+.postModeloContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.fotoCapa,
+.titulo {
+    background-color: var(--rosa);
+    width: 79%;
+    height: 204px;
+    justify-content: center;
+}
+
+.fotoCapa {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.titulo {
+    font-family: var(--font-principal);
+    padding: 0 7.5rem;
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.postConteudoContainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 744px) {
+    .postConteudoContainer {
+        padding: 2rem 1.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 744px) {
+
+    .fotoCapa,
+    .titulo {
+        height: 104px;
+    }
+
+    .titulo {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+
+    .postConteudoContainer {
+        padding: 2rem 1rem 1.5rem;
+    }
+}

@@ -1,0 +1,39 @@
+.treinos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTreino {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  height: 150px; /* ajuste conforme necessário */
+  position: relative;
+  background-color: #2c161e; /* só para visualizar como na imagem */
+}
+
+.btnVoltar {
+  grid-column: auto;
+  justify-self: start;
+  margin-left: 1rem;
+}
+
+.containerTreinoTexto {
+  grid-column: 2;
+  text-align: center;
+}
+
+.containerTreinoTexto h1{
+    font-size: 76px;
+    font-weight: 800;
+}
+
+.containerTreinoBtn{
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 19vw 19vw;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+}

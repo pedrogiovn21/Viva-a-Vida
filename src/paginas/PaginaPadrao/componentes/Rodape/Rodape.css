@@ -1,0 +1,74 @@
+footer {
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88vh;
+    padding: 2rem;
+    /* ajuste a cor do texto conforme necessário */
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+
+footer h2 {
+    background-color: transparent;
+    /* Remove qualquer fundo */
+    color: var(--rosa);
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+}
+
+.listaDeItensRodape {
+    display: flex;
+}
+
+footer ul,
+footer li,
+footer h4,
+footer p,
+footer img footer a {
+    background-color: transparent;
+}
+
+
+.ItensListaRodape {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 32px;
+}
+
+.ItensListaRodape h4 {
+    font-size: 24px;
+    color: var(--rosa);
+}
+
+.ItensListaRodape p {
+    font-size: 20px;
+}
+
+.socialListaRodape {
+    gap: 13px;
+}
+
+.socialImagens {
+    width: 60px;
+    height: 60px;
+}
+
+.btnRedesSociais{
+    transition: 0.2s ease;
+}
+
+.btnRedesSociais:hover{
+    opacity: 0.8;
+}
+
+.socialListaRodape {
+    display: flex;
+    align-items: center;
+}

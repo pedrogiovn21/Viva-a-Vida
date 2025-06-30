@@ -1,0 +1,39 @@
+.containerDepoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    height: 95vh;
+    padding: 0 10rem;
+}
+
+.containerDepoimentos h2{
+    padding-top: 3rem;
+    margin-bottom: 8rem;
+    font-size: 48px;
+    color: var(--rosa);
+}
+
+.containerDepoimentos ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.caixaDeTexto{
+    border: 1px solid var(--branco);
+    margin: 5rem;
+    padding: 54px 40px 90px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.caixaDeTexto p{
+    font-size: 20px;
+}    
+
+.caixaDeTexto h3{
+    color: var(--rosa);
+    padding-top: 39px;
+    font-size: 23px;
+}

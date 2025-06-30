@@ -1,0 +1,43 @@
+.containerInfo {
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88vh;
+    padding: 2rem;
+    color: white;
+    /* ajuste a cor do texto conforme necessário */
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 0 20vw;
+    padding: 0 1vw;
+}
+
+.containerInfo p,
+.containerInfo h2 {
+    margin: 50px 0;
+    background-color: transparent;
+    color: var(--rosa);
+    justify-content: center;
+    font-size: 62px;
+    font-weight: 700;
+    
+}
+
+.containerInfo p {
+    font-size: 28px;
+    font-weight: 400;
+}

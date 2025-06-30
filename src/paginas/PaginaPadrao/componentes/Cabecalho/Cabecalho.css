@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 11vw;
+    height: 95vh;
+}
+
+.containerLeft {
+    line-height: 2;
+}
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 4rem;
+}
+
+.imageLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.tituloLogo {
+    font-family: var(--font-logo);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.containerLeft h2 {
+    font-size: 102px;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.containerLeft p {
+    margin: 0;
+    padding: 0;
+    max-width: 70%;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    color: var(--branco);
+}
+
+.imgCell {
+    width: 45vw;
+    height: 75vh;
+}
+
+

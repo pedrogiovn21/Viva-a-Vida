@@ -1,0 +1,26 @@
+:root {
+  --font-principal: "IBM Plex Sans", sans-serif;
+  --font-logo: "Open Sans", sans-serif;
+
+  --rosa: #fd288d;
+  --marrom: #2b1821;
+  --branco: #fff;
+  --preto: #000;
+}
+
+* {
+  line-height: 1.5;
+  background-color: var(--marrom);
+  font-family: var(--font-principal);
+  color: var(--branco);
+  margin: 0;
+  padding: 0;
+}
+
+img,
+a,
+ul {
+  list-style: none;
+  background-color: transparent;
+}
+

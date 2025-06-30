@@ -1,0 +1,31 @@
+.containerDicas{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--preto);
+    height: 95vh;
+    padding: 0 10rem;
+}
+
+.containerTexto{
+    text-align: center;
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.containerTexto h2, .containerTexto p {
+    background-color: var(--branco);
+    color: var(--rosa);
+    padding: 25px 30px;
+    font-size: 64px;
+}
+
+.containerTexto p{
+    color: var(--preto);
+    font-size: 28px;
+    margin-bottom: 25px;
+}
